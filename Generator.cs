@@ -6,7 +6,7 @@ namespace UnifiedCivilNumberGenerator
         /// 
         /// DOCUMENTATION
         /// 
-        /// The method below a new UCN variation, that in my opinion, is significally harder to crack. Instead of a preset standards that are
+        /// The method below generates a new UCN variation, that in my opinion, is significally harder to crack. Instead of a preset standards that are
         /// easily predicted, I made an overhaul of the entire structure. The UCN will be created using a timestamp of the unix time that
         /// has passed, down to the second of the birth. This already makes the predictability harder, since only the owner of the UCN,
         /// their parents and the hospital in which they were brought to life would know that information. The timestamp is then randomized
